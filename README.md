@@ -4,8 +4,8 @@ Full-stack template Vuejs + Apollo + GraphQl + mongoDB + Docker + AUTH
 ## Perks
 
 - [X] SSR
-- [ ] Full text search
 - [ ] Reactive / DB subcriptions
+- [ ] Full text search
 - [ ] Auth with Password and Social Media Buttons
 - [ ] PWA
 - [ ] Basic offline mode
