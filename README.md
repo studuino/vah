@@ -3,13 +3,13 @@ Full-stack template Vuejs + Apollo + GraphQl + mongoDB + Docker + AUTH
 
 ## Perks
 
-- [ ] Docker compose
-- [ ] SSR
+- [X] SSR
 - [ ] Full text search
 - [ ] Reactive / DB subcriptions
 - [ ] Auth with Password and Social Media Buttons
 - [ ] PWA
 - [ ] Basic offline mode
+- [ ] Docker compose
 
 
 Install
