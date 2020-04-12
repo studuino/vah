@@ -1,4 +1,4 @@
-# VAAM - Full Stack Temaplate
+# VAAM - Full Stack Boilerplate
 ## Vue + Apollo Client+ Apollo Graphql + Mongo
 Full-stack template with examples to create Offline first reactive Web Applications with state of the art open source 'pluggable' technologies and world-wide adopted.
 
