@@ -14,6 +14,8 @@ Full-stack template with examples to create Offline first reactive Web Applicati
 - [ ] Auth with Password and Social Media Buttons
 - [ ] Basic offline mode
 - [ ] Docker compose
+- Code Exmaples
+  - [ ] Fill database with fake data for testing
 
 ## Philosophy
 - Every part can be separated into other technologies, different frontent and libraries. Graphql allways be the aquitecture/design connector between parts. So it is possible to chage Vue for React and MongoDb from another DB. Tho these technoligies are state of the art right now, with huge communities, support and documentation. 
