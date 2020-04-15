@@ -1,6 +1,9 @@
 # vam
 
 ## Project setup
+It needs to run locally at the moment the vue app and the GraphQl Local server provided by Apollo.
+Best option is to run `vue ui` and run `server` and `apollo`
+
 
 ```
 yarn install
