@@ -4,6 +4,7 @@ Full-stack template with examples to create Offline first reactive Web Applicati
 
 ![Artboard](https://user-images.githubusercontent.com/4195550/79074476-f69f9100-7cec-11ea-99a7-855b4b711d66.jpg)
 
+Follow [Development](DEVELOPMENT.md) for instructions.
 
 ## Perks
 
