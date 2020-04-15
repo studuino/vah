@@ -1,8 +1,8 @@
 <template>
   <div class="apollo-example">
     <!-- Cute tiny form -->
-    <div class="form">
-      <label for="field-name" class="label">Name</label>
+    <div class="form" style="display:flex; justify-content: center; align-items:center">
+      <label for="field-name" class="label">Name </label>
       <input v-model="name" placeholder="Type a name" class="input" id="field-name" />
     </div>
 
@@ -34,6 +34,7 @@
         <template v-if="data">
           <div v-for="message of data.messages" :key="message.id" class="message">
             {{ message.text }}
+              <button @click="deleteMessage" style="border-radius:50%; height: 25px; width: 25px">x</button>
           </div>
         </template>
       </div>
@@ -98,6 +99,13 @@ export default {
   },
 
   methods: {
+    deleteMessage(previousResult, { subscriptionData }) {
+      return {
+        messages: [...previousResult.messages, subscriptionData.data.messageAdded],
+      }
+    },
+
+
     onMessageAdded(previousResult, { subscriptionData }) {
       return {
         messages: [...previousResult.messages, subscriptionData.data.messageAdded],
