@@ -30,8 +30,11 @@ Install
 Clone the Repository, 
 Create aacounti in Graphql Engine for online reporst on graphql https://engine.apollographql.com/
 
-
 Run 
+```
+npm run serve
+```
+Or with Vue UI:
 ```shell
 docker-compose up
 vue ui
