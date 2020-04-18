@@ -2,7 +2,6 @@
 ## UNDER DEVELOPMENT
 ##
 
-
 version: '3'
 services:
   # vue-client:
@@ -19,7 +18,26 @@ services:
   #   links:
   #     - mongo
 
-  mongo:
-    image: mongo
+  # mongo:
+  #   image: mongo
+  #   ports:
+  #     - "27017:27017"
+
+  # vue-client:
+  #   build: ./client
+  #   command: npm run serve
+  #   ports:
+  #     - "8080:8080"
+
+  # Dgraph
+  dgraph:
+    image: dgraph/standalone:v20.03.0
+    # build: ./graphql
+    # command: curl -X POST localhost:4000/admin/schema -d './graphql/@schema.graphql'
+    volumes:
+      - ./dgraph:/dgraph
+    # working_dir: /usr/local/analisys-server
     ports:
-      - "27017:27017"
+      - 4000:8080 # local:container
+      - 9080:9080
+      - 8000:8000

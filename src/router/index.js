@@ -19,6 +19,14 @@ export function createRouter() {
       // which is lazy-loaded when the route is visited.
       component: () => import(/* webpackChunkName: "about" */ '../views/About.vue'),
     },
+    {
+      path: '/subscriptions',
+      name: 'Subscriptions',
+      // route level code-splitting
+      // this generates a separate chunk (subscriptions.[hash].js) for this route
+      // which is lazy-loaded when the route is visited.
+      component: () => import(/* webpackChunkName: "subscriptions" */ '../views/Subscriptions.vue'),
+    },
   ]
 
   const router = new VueRouter({

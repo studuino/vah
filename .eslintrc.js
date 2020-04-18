@@ -15,14 +15,14 @@ module.exports = {
     'no-console': 'off',
     'no-debugger': 'off',
     'no-async-promise-executor': 'off',
-    'graphql/template-strings': [
-      'error',
-      {
-        env: 'literal',
-        projectName: 'app',
-        schemaJsonFilepath: 'node_modules/.temp/graphql/schema.json',
-      },
-    ],
+    // 'graphql/template-strings': [
+    //   'error',
+    //   {
+    //     env: 'literal',
+    //     projectName: 'app',
+    //     schemaJsonFilepath: 'node_modules/.temp/graphql/schema.json',
+    //   },
+    // ],
   },
 
   plugins: ['graphql'],

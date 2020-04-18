@@ -34,7 +34,9 @@
         <template v-if="data">
           <div v-for="message of data.messages" :key="message.id" class="message">
             {{ message.text }}
-              <button @click="deleteMessage" style="border-radius:50%; height: 25px; width: 25px">x</button>
+            <button @click="deleteMessage" style="border-radius:50%; height: 25px; width: 25px">
+              x
+            </button>
           </div>
         </template>
       </div>
@@ -104,7 +106,6 @@ export default {
         messages: [...previousResult.messages, subscriptionData.data.messageAdded],
       }
     },
-
 
     onMessageAdded(previousResult, { subscriptionData }) {
       return {
