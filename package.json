@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "serve": "docker-compose up -d && vue-cli-service serve ",
+    "serve": "docker-compose up -d && vue-cli-service serve --open ",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
     "apollo": "vue-cli-service apollo:dev --generate-schema",
@@ -15,6 +15,7 @@
     "ssr:start": "cross-env NODE_ENV=production vue-cli-service ssr:serve --mode production"
   },
   "dependencies": {
+    "auth0-js": "^9.13.2",
     "core-js": "^3.6.4",
     "graphql-type-json": "^0.2.1",
     "isomorphic-fetch": "^2.2.1",

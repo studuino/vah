@@ -1,10 +1,12 @@
 import Vue from 'vue'
-import App from './App.vue'
+import App from '@/App.vue'
 
 if (process.client) require('./registerServiceWorker')
 import { createRouter } from './router'
 import { createStore } from './store'
 import { createProvider } from './vue-apollo'
+import AuthPlugin from '@/plugins/auth'
+Vue.use(AuthPlugin)
 
 Vue.config.productionTip = false
 

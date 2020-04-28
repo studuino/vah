@@ -1,5 +1,0 @@
-mutation deleteUser($userId: ID!){
-    deleteUser(filter: {id:[$userId]}){
-        numUids
-    }
-}

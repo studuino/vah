@@ -1,6 +1,0 @@
-query queryUser {
-    queryUser {
-        id
-        name
-    }
-}

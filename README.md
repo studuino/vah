@@ -8,7 +8,7 @@ Follow [Development](DEVELOPMENT.md) for instructions.
 
 ## Perks
 
-- [X] SSR
+- [ ] SSR
 - [X] PWA
 - [ ] Reactive / DB subcriptions
 - [ ] Full text search
@@ -68,6 +68,10 @@ Vue + Apollo Client
 - Prettier
 - SSR
 
+
+AUthentification
+================
+Use JWT to auth with Firebase (and all the services) and 
 
 IDE's
 ======
