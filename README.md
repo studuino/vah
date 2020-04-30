@@ -54,21 +54,21 @@ yarn run ssr:serve
 
 Deploy
 ======
-The deployment method take account of Server Side Rendering
+The deployment method take account of Server Side Rendering.
 
 
 
-
-Vue + Apollo Client
+Vue Ecosystem
 ===================
 
 **Vue plugins**:
 - Vue Cli
-- Vuex
-- PWA
-- Vue Apollo (InMemoryCache and HttpLink)
-- Prettier
-- SSR
+  - Vuex
+  - PWA
+  - Vue Apollo (InMemoryCache and HttpLink)
+  - ESLint + Prettier
+  - SSR
+- Vue-meta (Tab titles and SEO)
 
 
 IDE's
