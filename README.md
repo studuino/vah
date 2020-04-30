@@ -1,5 +1,5 @@
-# VAAM - Full Stack Boilerplate
-## VueJS + Apollo Client + Apollo Graphql + MongoDB
+# VAH - Full Stack Boilerplate
+## VueJS + Apollo Client + Hasura (Postgres)
 Full-stack template with examples to create Offline first reactive Web Applications with state of the art open source 'pluggable' technologies and world-wide adopted.
 
 ![Artboard](https://user-images.githubusercontent.com/4195550/79074476-f69f9100-7cec-11ea-99a7-855b4b711d66.jpg)
@@ -10,11 +10,11 @@ Follow [Development](DEVELOPMENT.md) for instructions.
 
 - [X] SSR
 - [X] PWA
-- [ ] Reactive / DB subcriptions
-- [ ] Full text search
+- [X] Reactive / DB subcriptions
+- [X] Full text search
 - [ ] Auth with Password and Social Media Buttons
 - [ ] Basic offline mode
-- [ ] Docker compose
+- [X] Docker compose
 - Code Exmaples
   - [ ] Fill database with fake data for testing
 
