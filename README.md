@@ -1,4 +1,4 @@
-# VAH - Full Stack Boilerplate
+# VAH - Full Stack Boilerplate (in development)
 ## VueJS + Apollo Client + Hasura (Postgres)
 Full-stack template with examples to create Offline first reactive Web Applications with state of the art open source 'pluggable' technologies and world-wide adopted.
 
@@ -14,12 +14,14 @@ Follow [Development](DEVELOPMENT.md) for instructions.
 - [X] Full text search
 - [ ] Auth with Password and Social Media Buttons
 - [ ] Basic offline mode
-- [X] Docker compose
+- [X] Docker compose: 
+  - Local: Hasura Instance, PGAdmin instance
+  - Production Deploy Script
 - Code Exmaples
   - [ ] Fill database with fake data for testing
 
 ## Philosophy
-- Every part can be separated into other technologies, different frontent and libraries. Graphql allways be the aquitecture/design connector between parts. So it is possible to chage Vue for React and MongoDb from another DB. Tho these technoligies are state of the art right now, with huge communities, support and documentation. 
+- Every part can be separated into other technologies, different frontent and libraries. Graphql needs to be the aquitecture/design connector between parts. So it is possible to chage Vue for React and Postgres with another DB. Tho these technoligies are state of the art right now, with huge communities, support and documentation. 
 - Best Development Experience as possible (DX)
 - Posibility to deploy all at once or in difference microservices.
 - Offline First approach for best user exeperience and accesibility. 
