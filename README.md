@@ -32,6 +32,15 @@ Install
 Clone the Repository, 
 Create aacounti in Graphql Engine for online reporst on graphql https://engine.apollographql.com/
 
+Create a `.env` file with the following structure. Be sure that you never commit this file.
+```
+# Hasura API
+VUE_APP_GRAPHQL_HTTP
+VUE_APP_GRAPHQL_WS
+#HASURA_GRAPHQL_AUTH_HOOK=true
+#HASURA_GRAPHQL_AUTH_HOOK_MODE=true
+```
+
 Run 
 ```
 npm run serve
