@@ -17,6 +17,7 @@ Follow [Development](DEVELOPMENT.md) for instructions.
 - [X] Docker compose: 
   - Local: Hasura Instance, PGAdmin instance
   - Production Deploy Script
+- [ ] WYSIWYG editor with Drag&Drop and copy from clipboard images, with file compression on the browser.
 - Code Exmaples
   - [ ] Fill database with fake data for testing
 
