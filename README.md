@@ -7,19 +7,19 @@ Full-stack template with examples to create Offline first reactive Web Applicati
 Follow [Development](DEVELOPMENT.md) for instructions.
 
 ## Perks
-
 - [X] SSR
 - [X] PWA
-- [X] Reactive / DB subcriptions
+- [X] Reactive / DB Subcriptions
 - [X] Full text search
-- [ ] Auth with Password and Social Media Buttons
-- [ ] Basic offline mode
+- [ ] Auth with Passwordless authentication with email link and federated login (Google, Facebook, twitter, Github...)
 - [X] Docker compose: 
   - Local: Hasura Instance, PGAdmin instance
-  - Production Deploy Script
-- [ ] WYSIWYG editor with Drag&Drop and copy from clipboard images, with file compression on the browser.
+  - Production Deploy Script for Firebase Hosting (free with custom domain)
 - Code Exmaples
-  - [ ] Fill database with fake data for testing
+  - [ ] Complete realtime todo app with public and private lists.
+  - [ ] WYSIWYG editor (CKEditor5) with Drag&Drop and copy from clipboard images, with file compression on the browser and store in a cloud bucket.
+  - [ ] Basic offline mode
+
 
 ## Philosophy
 - Every part can be separated into other technologies, different frontent and libraries. Graphql needs to be the aquitecture/design connector between parts. So it is possible to chage Vue for React and Postgres with another DB. Tho these technoligies are state of the art right now, with huge communities, support and documentation. 
